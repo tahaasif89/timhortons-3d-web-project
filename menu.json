@@ -1,0 +1,2273 @@
+{
+ "categories": [
+  {
+   "slug": "iced-capps",
+   "name": "Iced Capps",
+   "blurb": "Frozen blended coffee"
+  },
+  {
+   "slug": "iced-coffee",
+   "name": "Iced Coffee",
+   "blurb": "Cold espresso drinks"
+  },
+  {
+   "slug": "matcha",
+   "name": "Matcha",
+   "blurb": "Green tea drinks"
+  },
+  {
+   "slug": "hot",
+   "name": "Hot Espresso",
+   "blurb": "Coffee & lattes"
+  },
+  {
+   "slug": "sandwiches",
+   "name": "Sandwiches & Panini",
+   "blurb": "Grilled and toasted"
+  },
+  {
+   "slug": "donuts",
+   "name": "Donuts & Timbits",
+   "blurb": "Fresh baked"
+  }
+ ],
+ "ingredients": [
+  {
+   "slug": "coffee",
+   "name": "Brewed coffee",
+   "kind": "coffee",
+   "color": "#4a2a14",
+   "info": "Freshly brewed medium-roast coffee."
+  },
+  {
+   "slug": "espresso",
+   "name": "Espresso shot",
+   "kind": "espresso",
+   "color": "#2a140a",
+   "info": "A concentrated shot pulled under pressure, topped with crema."
+  },
+  {
+   "slug": "milk",
+   "name": "Milk",
+   "kind": "milk",
+   "color": "#f6efe2",
+   "info": "Cold or steamed milk gives body and sweetness."
+  },
+  {
+   "slug": "cream",
+   "name": "Cream",
+   "kind": "milk",
+   "color": "#fff6e0",
+   "info": "Cream makes the drink richer and smoother."
+  },
+  {
+   "slug": "ice",
+   "name": "Ice",
+   "kind": "ice",
+   "color": "#cfe8f5",
+   "info": "Crushed ice keeps it cold and gives blended drinks their frosty texture."
+  },
+  {
+   "slug": "whip",
+   "name": "Whipped cream",
+   "kind": "whip",
+   "color": "#fff8ee",
+   "info": "Light whipped cream swirled on top."
+  },
+  {
+   "slug": "sugar",
+   "name": "Sugar",
+   "kind": "sugar",
+   "color": "#ffffff",
+   "info": "Sweetens the base."
+  },
+  {
+   "slug": "vanilla",
+   "name": "Vanilla syrup",
+   "kind": "syrup",
+   "color": "#efd9a0",
+   "info": "Sweet vanilla flavour."
+  },
+  {
+   "slug": "caramel",
+   "name": "Caramel sauce",
+   "kind": "syrup",
+   "color": "#c4762a",
+   "info": "Buttery caramel."
+  },
+  {
+   "slug": "hazelnut",
+   "name": "Hazelnut syrup",
+   "kind": "syrup",
+   "color": "#8a5a30",
+   "info": "Toasted hazelnut flavour."
+  },
+  {
+   "slug": "chocolate",
+   "name": "Chocolate sauce",
+   "kind": "syrup",
+   "color": "#3b1d10",
+   "info": "Rich chocolate."
+  },
+  {
+   "slug": "condensed",
+   "name": "Condensed milk",
+   "kind": "can",
+   "color": "#f1e0b5",
+   "info": "Sweet condensed milk, the base of a Spanish latte."
+  },
+  {
+   "slug": "oreo",
+   "name": "OREO pieces",
+   "kind": "oreo",
+   "color": "#2b1b14",
+   "info": "Crushed chocolate sandwich cookie."
+  },
+  {
+   "slug": "chips",
+   "name": "Chocolate chips",
+   "kind": "chips",
+   "color": "#3b1d10",
+   "info": "Chocolate chips for a java-chip crunch."
+  },
+  {
+   "slug": "strawberry",
+   "name": "Strawberry",
+   "kind": "strawberry",
+   "color": "#d8283c",
+   "info": "Strawberry puree and pieces."
+  },
+  {
+   "slug": "mango",
+   "name": "Mango",
+   "kind": "mango",
+   "color": "#f6a81c",
+   "info": "Sweet mango puree and cubes."
+  },
+  {
+   "slug": "pistachio",
+   "name": "Pistachio",
+   "kind": "pistachio",
+   "color": "#9dbb62",
+   "info": "Pistachio paste and crushed nuts."
+  },
+  {
+   "slug": "biscoff",
+   "name": "Lotus Biscoff",
+   "kind": "biscoff",
+   "color": "#b9772e",
+   "info": "Caramelised biscuit spread and crumbs."
+  },
+  {
+   "slug": "pineapple",
+   "name": "Pineapple",
+   "kind": "pineapple",
+   "color": "#f3d03e",
+   "info": "Tropical pineapple."
+  },
+  {
+   "slug": "orange",
+   "name": "Orange",
+   "kind": "orange",
+   "color": "#f08a1d",
+   "info": "Orange zest and juice."
+  },
+  {
+   "slug": "matcha",
+   "name": "Matcha",
+   "kind": "matcha",
+   "color": "#7ca443",
+   "info": "Finely milled green tea powder."
+  },
+  {
+   "slug": "hazelnuts",
+   "name": "Hazelnut pieces",
+   "kind": "hazelnut",
+   "color": "#9a6b3c",
+   "info": "Crunchy roasted hazelnuts."
+  },
+  {
+   "slug": "beans",
+   "name": "Coffee beans",
+   "kind": "beans",
+   "color": "#3a1f10",
+   "info": "Roasted arabica beans."
+  },
+  {
+   "slug": "bread",
+   "name": "Panini bread",
+   "kind": "bread",
+   "color": "#d9a566",
+   "info": "Soft bread, toasted with grill marks."
+  },
+  {
+   "slug": "chicken",
+   "name": "Grilled chicken",
+   "kind": "chicken",
+   "color": "#e4c08e",
+   "info": "Tender grilled chicken."
+  },
+  {
+   "slug": "tikka",
+   "name": "Chicken tikka",
+   "kind": "tikka",
+   "color": "#d9531e",
+   "info": "Spiced tikka-marinated chicken."
+  },
+  {
+   "slug": "cheese",
+   "name": "Cheese",
+   "kind": "cheese",
+   "color": "#f5c443",
+   "info": "Melted cheese slices."
+  },
+  {
+   "slug": "jalapeno",
+   "name": "Jalapeño",
+   "kind": "jalapeno",
+   "color": "#4f8d2c",
+   "info": "Pickled jalapeño rings."
+  },
+  {
+   "slug": "lettuce",
+   "name": "Lettuce",
+   "kind": "lettuce",
+   "color": "#79b84a",
+   "info": "Crisp lettuce."
+  },
+  {
+   "slug": "onion",
+   "name": "Onion",
+   "kind": "onion",
+   "color": "#d9a8c8",
+   "info": "Sliced onion."
+  },
+  {
+   "slug": "caesar",
+   "name": "Caesar dressing",
+   "kind": "sauce",
+   "color": "#efe6cf",
+   "info": "Creamy Caesar sauce."
+  },
+  {
+   "slug": "mayo",
+   "name": "Creamy sauce",
+   "kind": "sauce",
+   "color": "#f3ecdd",
+   "info": "Creamy spread."
+  },
+  {
+   "slug": "chutney",
+   "name": "Green chutney",
+   "kind": "sauce",
+   "color": "#6fa83a",
+   "info": "Fresh mint-coriander chutney."
+  },
+  {
+   "slug": "parmesan",
+   "name": "Parmesan",
+   "kind": "parmesan",
+   "color": "#f2e2a8",
+   "info": "Shaved parmesan."
+  },
+  {
+   "slug": "dough",
+   "name": "Donut dough",
+   "kind": "dough",
+   "color": "#d9a15e",
+   "info": "Yeast-raised dough, fried until golden."
+  },
+  {
+   "slug": "whitedip",
+   "name": "White chocolate dip",
+   "kind": "icing",
+   "color": "#fff3dc",
+   "info": "Smooth white chocolate coating."
+  },
+  {
+   "slug": "glaze",
+   "name": "Sugar glaze",
+   "kind": "icing",
+   "color": "#f7e4b0",
+   "info": "A thin sugar glaze."
+  },
+  {
+   "slug": "vandip",
+   "name": "Vanilla dip",
+   "kind": "icing",
+   "color": "#f6e9c9",
+   "info": "Vanilla fondant dip."
+  },
+  {
+   "slug": "chocdip",
+   "name": "Chocolate dip",
+   "kind": "icing",
+   "color": "#4a2415",
+   "info": "Chocolate fondant dip."
+  },
+  {
+   "slug": "mapledip",
+   "name": "Maple glaze",
+   "kind": "icing",
+   "color": "#a8641e",
+   "info": "Sweet maple glaze."
+  },
+  {
+   "slug": "sprinkles",
+   "name": "Sprinkles",
+   "kind": "sprinkles",
+   "color": "#ff6b9a",
+   "info": "Colourful sprinkles."
+  },
+  {
+   "slug": "smarties",
+   "name": "Smarties",
+   "kind": "smarties",
+   "color": "#e53935",
+   "info": "Colourful candy-coated chocolate."
+  },
+  {
+   "slug": "lotusbis",
+   "name": "Lotus biscuit",
+   "kind": "biscoff",
+   "color": "#b9772e",
+   "info": "Crumbled caramel biscuit."
+  },
+  {
+   "slug": "pistacrumb",
+   "name": "Crushed pistachio",
+   "kind": "pistachio",
+   "color": "#9dbb62",
+   "info": "Crushed pistachio topping."
+  },
+  {
+   "slug": "oreocrumb",
+   "name": "OREO crumb",
+   "kind": "oreo",
+   "color": "#2b1b14",
+   "info": "OREO cookie crumbs."
+  }
+ ],
+ "items": [
+  {
+   "cat": "iced-capps",
+   "slug": "original-iced-capp",
+   "name": "Original Iced Capp",
+   "price": 990,
+   "desc": "The classic frozen blended coffee topped with whipped cream.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#d8b98e",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "sugar",
+     "role": "layer0c"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": "Classic"
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "hazelnut-iced-capp",
+   "name": "Hazelnut Iced Capp",
+   "price": 990,
+   "desc": "Iced capp blended with hazelnut syrup and topped with whipped cream and hazelnut pieces.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#c9956a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#3b1d10",
+    "topping": {
+     "k": "nut",
+     "c": "#9a6b3c"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "hazelnut",
+     "role": "layer0c"
+    },
+    {
+     "ing": "hazelnuts",
+     "role": "topping"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "oreo-iced-capp",
+   "name": "OREO Iced Capp",
+   "price": 990,
+   "desc": "Smooth and creamy iced capp with OREO cookie pieces.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#b79880",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#3b1d10",
+    "topping": {
+     "k": "crumb",
+     "c": "#2b1b14"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "oreo",
+     "role": "layer0c"
+    },
+    {
+     "ing": "chocolate",
+     "role": "drizzle"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "caramel-iced-capp",
+   "name": "Caramel Iced Capp",
+   "price": 990,
+   "desc": "Iced capp with buttery caramel and a caramel drizzle.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#d4a26a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#c4762a",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "caramel",
+     "role": "layer0c"
+    },
+    {
+     "ing": "caramel",
+     "role": "drizzle"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "java-chip-iced-capp",
+   "name": "Java Chip Iced Capp",
+   "price": 990,
+   "desc": "Chocolatey iced capp loaded with chocolate chips.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#9a6a4a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#3b1d10",
+    "topping": {
+     "k": "chip",
+     "c": "#3b1d10"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "chocolate",
+     "role": "layer0c"
+    },
+    {
+     "ing": "chips",
+     "role": "topping"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "strawberry-iced-capp",
+   "name": "Strawberry Iced Capp",
+   "price": 990,
+   "desc": "Fruity iced capp blended with strawberry.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#e58a98",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": {
+     "k": "cube",
+     "c": "#d8283c"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "strawberry",
+     "role": "layer0c"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "pistachio-iced-capp",
+   "name": "Pistachio Iced Capp",
+   "price": 990,
+   "desc": "Nutty pistachio iced capp with crushed pistachio.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#b6c98b",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": {
+     "k": "nut",
+     "c": "#9dbb62"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "pistachio",
+     "role": "layer0c"
+    },
+    {
+     "ing": "pistacrumb",
+     "role": "topping"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "tropical-iced-capp",
+   "name": "Tropical Iced Capp",
+   "price": 990,
+   "desc": "Sunny tropical iced capp with pineapple and mango notes.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#f0c25a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": {
+     "k": "cube",
+     "c": "#f3d03e"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "pineapple",
+     "role": "layer0c"
+    },
+    {
+     "ing": "mango",
+     "role": "topping"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "mango-iced-capp",
+   "name": "Mango Iced Capp",
+   "price": 990,
+   "desc": "Sweet mango iced capp.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#f3b24a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": {
+     "k": "cube",
+     "c": "#f6a81c"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "mango",
+     "role": "layer0c"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "lotus-biscoff-iced-capp",
+   "name": "Lotus Biscoff Iced Capp",
+   "price": 990,
+   "desc": "Iced capp with caramelised Lotus Biscoff.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#c9915a",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#c4762a",
+    "topping": {
+     "k": "crumb",
+     "c": "#b9772e"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "biscoff",
+     "role": "layer0c"
+    },
+    {
+     "ing": "lotusbis",
+     "role": "topping"
+    },
+    {
+     "ing": "caramel",
+     "role": "drizzle"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "strawberry-oreo-iced-capp",
+   "name": "Strawberry OREO Iced Capp",
+   "price": 990,
+   "desc": "Strawberry and OREO together in a frozen capp.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#d9918e",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#d8283c",
+    "topping": {
+     "k": "crumb",
+     "c": "#2b1b14"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "strawberry",
+     "role": "layer0c"
+    },
+    {
+     "ing": "oreo",
+     "role": "topping"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-capps",
+   "slug": "matcha-iced-capp",
+   "name": "Matcha Iced Capp",
+   "price": 1090,
+   "desc": "Frozen matcha capp topped with whipped cream.",
+   "builder": "cold",
+   "params": {
+    "kind": "capp",
+    "layers": [
+     [
+      "#a9c47e",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "coffee",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "matcha",
+     "role": "layer0c"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "iced-french-vanilla",
+   "name": "Iced French Vanilla",
+   "price": 900,
+   "desc": "Smooth vanilla coffee over ice.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#efd9a0",
+      0.18
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#6b3f1d",
+      0.4
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "vanilla",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "iced-americano",
+   "name": "Iced Americano",
+   "price": 775,
+   "desc": "Espresso poured over ice and cold water.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#7a5033",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "espresso",
+     "role": "layer0"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "iced-latte",
+   "name": "Iced Latte",
+   "price": 825,
+   "desc": "Espresso over cold milk and ice.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#f6efe2",
+      0.62
+     ],
+     [
+      "#3d2212",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "milk",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "caramel-iced-macchiato",
+   "name": "Caramel Iced Macchiato",
+   "price": 900,
+   "desc": "Layers of milk, espresso and caramel finished with a caramel drizzle.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#c4762a",
+      0.12
+     ],
+     [
+      "#f6efe2",
+      0.5
+     ],
+     [
+      "#3d2212",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": "#c4762a",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "caramel",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "caramel",
+     "role": "drizzle"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "mocha-iced-latte",
+   "name": "Mocha Iced Latte",
+   "price": 900,
+   "desc": "Espresso, chocolate and milk over ice with whipped cream.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#3b1d10",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#3d2212",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": "#3b1d10",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "chocolate",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "spanish-iced-latte",
+   "name": "Spanish Iced Latte",
+   "price": 900,
+   "desc": "A sweet iced latte made with condensed milk.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#f1e0b5",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#3d2212",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "condensed",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "jaffa-iced-mocha",
+   "name": "Jaffa Iced Mocha",
+   "price": null,
+   "desc": "Chocolate and orange iced mocha.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#f08a1d",
+      0.18
+     ],
+     [
+      "#3b1d10",
+      0.22
+     ],
+     [
+      "#f6efe2",
+      0.3
+     ],
+     [
+      "#3d2212",
+      0.3
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "orange",
+     "role": "layer0"
+    },
+    {
+     "ing": "chocolate",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer3"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "iced-coffee",
+   "slug": "frozen-french-vanilla",
+   "name": "Frozen French Vanilla",
+   "price": 990,
+   "desc": "Frozen blended vanilla coffee with whipped cream.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#ecd9ac",
+      1.0
+     ]
+    ],
+    "ice": true,
+    "whip": true,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "vanilla",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer0b"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    },
+    {
+     "ing": "whip",
+     "role": "whip"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "matcha",
+   "slug": "iced-vanilla-bean-matcha-latte",
+   "name": "Iced Vanilla Bean Matcha Latte",
+   "price": null,
+   "desc": "Matcha latte with vanilla bean over ice.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#efd9a0",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#7ca443",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "vanilla",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "matcha",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "matcha",
+   "slug": "iced-strawberry-matcha",
+   "name": "Iced Strawberry Matcha",
+   "price": null,
+   "desc": "Strawberry puree under milk and matcha.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#d8283c",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#7ca443",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "strawberry",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "matcha",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "matcha",
+   "slug": "iced-mango-matcha",
+   "name": "Iced Mango Matcha",
+   "price": null,
+   "desc": "Mango puree under milk and matcha.",
+   "builder": "cold",
+   "params": {
+    "kind": "iced",
+    "layers": [
+     [
+      "#f6a81c",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.42
+     ],
+     [
+      "#7ca443",
+      0.38
+     ]
+    ],
+    "ice": true,
+    "whip": false,
+    "drizzle": null,
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "mango",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    },
+    {
+     "ing": "matcha",
+     "role": "layer2"
+    },
+    {
+     "ing": "ice",
+     "role": "ice"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "matcha",
+   "slug": "hot-matcha-latte",
+   "name": "Hot Matcha Latte",
+   "price": null,
+   "desc": "Warm matcha whisked with steamed milk.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#7ca443",
+      0.45
+     ],
+     [
+      "#f6efe2",
+      0.55
+     ]
+    ],
+    "foam": "#eef3dc",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "matcha",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "cappuccino",
+   "name": "Cappuccino",
+   "price": 675,
+   "desc": "Espresso with steamed milk and a thick layer of foam.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#3d2212",
+      0.3
+     ],
+     [
+      "#f6efe2",
+      0.7
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "espresso",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "latte",
+   "name": "Latte",
+   "price": 675,
+   "desc": "Espresso with plenty of steamed milk and light foam.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#3d2212",
+      0.28
+     ],
+     [
+      "#f6efe2",
+      0.72
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "espresso",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "mocha-latte",
+   "name": "Mocha Latte",
+   "price": 850,
+   "desc": "Rich and velvety coffee with chocolate and a silky microfoam.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#3b1d10",
+      0.3
+     ],
+     [
+      "#3d2212",
+      0.2
+     ],
+     [
+      "#f6efe2",
+      0.5
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": "#3b1d10"
+   },
+   "ingredients": [
+    {
+     "ing": "chocolate",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "caramel-macchiato",
+   "name": "Caramel Macchiato",
+   "price": 750,
+   "desc": "Steamed milk marked with espresso and caramel.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#f6efe2",
+      0.7
+     ],
+     [
+      "#3d2212",
+      0.3
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": "#c4762a"
+   },
+   "ingredients": [
+    {
+     "ing": "milk",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "caramel",
+     "role": "syrup"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "caramel-latte",
+   "name": "Caramel Latte",
+   "price": 750,
+   "desc": "Latte sweetened with caramel.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#c4762a",
+      0.15
+     ],
+     [
+      "#3d2212",
+      0.25
+     ],
+     [
+      "#f6efe2",
+      0.6
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": "#c4762a"
+   },
+   "ingredients": [
+    {
+     "ing": "caramel",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "hazelnut-latte",
+   "name": "Hazelnut Latte",
+   "price": 750,
+   "desc": "Latte with toasted hazelnut flavour.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#8a5a30",
+      0.15
+     ],
+     [
+      "#3d2212",
+      0.25
+     ],
+     [
+      "#f6efe2",
+      0.6
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "hazelnut",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "spanish-latte",
+   "name": "Spanish Latte",
+   "price": 750,
+   "desc": "Hot latte sweetened with condensed milk.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#f1e0b5",
+      0.2
+     ],
+     [
+      "#3d2212",
+      0.25
+     ],
+     [
+      "#f6efe2",
+      0.55
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "condensed",
+     "role": "layer0"
+    },
+    {
+     "ing": "espresso",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "flat-white",
+   "name": "Flat White",
+   "price": 850,
+   "desc": "Rich and velvety coffee with a silky microfoam.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#3d2212",
+      0.4
+     ],
+     [
+      "#f6efe2",
+      0.6
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "espresso",
+     "role": "layer0"
+    },
+    {
+     "ing": "milk",
+     "role": "layer1"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "hot",
+   "slug": "french-vanilla-hot",
+   "name": "French Vanilla (Hot)",
+   "price": 750,
+   "desc": "Classic hot French vanilla cappuccino.",
+   "builder": "hot",
+   "params": {
+    "kind": "latte",
+    "liquids": [
+     [
+      "#efd9a0",
+      0.15
+     ],
+     [
+      "#6b3f1d",
+      0.4
+     ],
+     [
+      "#f6efe2",
+      0.45
+     ]
+    ],
+    "foam": "#fbf3e4",
+    "syrup": null
+   },
+   "ingredients": [
+    {
+     "ing": "vanilla",
+     "role": "layer0"
+    },
+    {
+     "ing": "coffee",
+     "role": "layer1"
+    },
+    {
+     "ing": "milk",
+     "role": "layer2"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "sandwiches",
+   "slug": "grilled-chicken-jalapeno",
+   "name": "Grilled Chicken Jalapeño",
+   "price": 1090,
+   "desc": "Grilled chicken with jalapeño, cheese and creamy sauce on toasted bread.",
+   "builder": "sandwich",
+   "params": {
+    "layers": [
+     "sauce:#f3ecdd",
+     "chicken",
+     "jalapeno",
+     "cheese",
+     "lettuce"
+    ]
+   },
+   "ingredients": [
+    {
+     "ing": "bread",
+     "role": "bread"
+    },
+    {
+     "ing": "mayo",
+     "role": "f0"
+    },
+    {
+     "ing": "chicken",
+     "role": "f1"
+    },
+    {
+     "ing": "jalapeno",
+     "role": "f2"
+    },
+    {
+     "ing": "cheese",
+     "role": "f3"
+    },
+    {
+     "ing": "lettuce",
+     "role": "f4"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "sandwiches",
+   "slug": "grilled-cheese",
+   "name": "Grilled Cheese",
+   "price": 1090,
+   "desc": "Melted layers of cheese on grilled bread.",
+   "builder": "sandwich",
+   "params": {
+    "layers": [
+     "cheese",
+     "cheese",
+     "cheese"
+    ]
+   },
+   "ingredients": [
+    {
+     "ing": "bread",
+     "role": "bread"
+    },
+    {
+     "ing": "cheese",
+     "role": "f0"
+    },
+    {
+     "ing": "cheese",
+     "role": "f1"
+    },
+    {
+     "ing": "cheese",
+     "role": "f2"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "sandwiches",
+   "slug": "grilled-cheese-tikka",
+   "name": "Grilled Cheese Tikka",
+   "price": 1090,
+   "desc": "Chicken tikka, onion and melted cheese with green chutney.",
+   "builder": "sandwich",
+   "params": {
+    "layers": [
+     "sauce:#6fa83a",
+     "tikka",
+     "onion",
+     "cheese"
+    ]
+   },
+   "ingredients": [
+    {
+     "ing": "bread",
+     "role": "bread"
+    },
+    {
+     "ing": "chutney",
+     "role": "f0"
+    },
+    {
+     "ing": "tikka",
+     "role": "f1"
+    },
+    {
+     "ing": "onion",
+     "role": "f2"
+    },
+    {
+     "ing": "cheese",
+     "role": "f3"
+    }
+   ],
+   "badge": "Popular"
+  },
+  {
+   "cat": "sandwiches",
+   "slug": "chicken-caesar-panini",
+   "name": "Chicken Caesar Panini",
+   "price": 1090,
+   "desc": "Grilled chicken, lettuce, parmesan and Caesar dressing in a panini.",
+   "builder": "sandwich",
+   "params": {
+    "layers": [
+     "sauce:#efe6cf",
+     "chicken",
+     "lettuce",
+     "parmesan"
+    ]
+   },
+   "ingredients": [
+    {
+     "ing": "bread",
+     "role": "bread"
+    },
+    {
+     "ing": "caesar",
+     "role": "f0"
+    },
+    {
+     "ing": "chicken",
+     "role": "f1"
+    },
+    {
+     "ing": "lettuce",
+     "role": "f2"
+    },
+    {
+     "ing": "parmesan",
+     "role": "f3"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "white-chocolate-dip",
+   "name": "Classic White Chocolate Dip",
+   "price": 350,
+   "desc": "Classic ring donut dipped in white chocolate.",
+   "builder": "donut",
+   "params": {
+    "icing": "#fff3dc",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "whitedip",
+     "role": "icing"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "original-glazed",
+   "name": "Original Glazed",
+   "price": null,
+   "desc": "Soft ring donut with a sugar glaze.",
+   "builder": "donut",
+   "params": {
+    "icing": "#f7e4b0",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "glaze",
+     "role": "icing"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "vanilla-dip",
+   "name": "Vanilla Dip",
+   "price": null,
+   "desc": "Ring donut dipped in vanilla with sprinkles.",
+   "builder": "donut",
+   "params": {
+    "icing": "#f6e9c9",
+    "topping": {
+     "k": "sprinkles"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "vandip",
+     "role": "icing"
+    },
+    {
+     "ing": "sprinkles",
+     "role": "topping"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "chocolate-dip",
+   "name": "Chocolate Dip",
+   "price": null,
+   "desc": "Ring donut dipped in chocolate.",
+   "builder": "donut",
+   "params": {
+    "icing": "#4a2415",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "chocdip",
+     "role": "icing"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "oreo-dream-donut",
+   "name": "Premium OREO Dream Donut",
+   "price": 450,
+   "desc": "Premium donut with creamy icing and OREO crumbs.",
+   "builder": "donut",
+   "params": {
+    "icing": "#3a2a22",
+    "topping": {
+     "k": "crumb",
+     "c": "#2b1b14"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "whitedip",
+     "role": "icing"
+    },
+    {
+     "ing": "oreocrumb",
+     "role": "topping"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "lotus-melt",
+   "name": "Premium Lotus Melt",
+   "price": 450,
+   "desc": "Premium donut with Lotus Biscoff spread and crumbs.",
+   "builder": "donut",
+   "params": {
+    "icing": "#b9772e",
+    "topping": {
+     "k": "crumb",
+     "c": "#c98a3c"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "biscoff",
+     "role": "icing"
+    },
+    {
+     "ing": "lotusbis",
+     "role": "topping"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "pistachio-donut",
+   "name": "Premium Pistachio",
+   "price": null,
+   "desc": "Premium donut with pistachio icing and crushed nuts.",
+   "builder": "donut",
+   "params": {
+    "icing": "#b6c98b",
+    "topping": {
+     "k": "crumb",
+     "c": "#7fa13e"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "pistachio",
+     "role": "icing"
+    },
+    {
+     "ing": "pistacrumb",
+     "role": "topping"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "smarties-donut",
+   "name": "Premium Smarties",
+   "price": null,
+   "desc": "Premium donut with white icing and colourful Smarties.",
+   "builder": "donut",
+   "params": {
+    "icing": "#fff3dc",
+    "topping": {
+     "k": "smarties"
+    }
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "whitedip",
+     "role": "icing"
+    },
+    {
+     "ing": "smarties",
+     "role": "topping"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "maple-donut",
+   "name": "Premium Maple",
+   "price": null,
+   "desc": "Premium donut with sweet maple glaze.",
+   "builder": "donut",
+   "params": {
+    "icing": "#a8641e",
+    "topping": null
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "mapledip",
+     "role": "icing"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "cat": "donuts",
+   "slug": "timbits-box",
+   "name": "Timbits (box of 10)",
+   "price": 810,
+   "desc": "Bite-sized donut holes in assorted flavours.",
+   "builder": "timbits",
+   "params": {
+    "count": 10,
+    "colors": [
+     "#fff3dc",
+     "#4a2415",
+     "#f7e4b0",
+     "#f6e9c9",
+     "#b6c98b"
+    ]
+   },
+   "ingredients": [
+    {
+     "ing": "dough",
+     "role": "dough"
+    },
+    {
+     "ing": "glaze",
+     "role": "icing"
+    },
+    {
+     "ing": "sprinkles",
+     "role": "topping"
+    }
+   ],
+   "badge": "Popular"
+  }
+ ]
+}
